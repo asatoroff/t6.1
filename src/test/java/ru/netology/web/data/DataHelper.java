@@ -1,6 +1,8 @@
 package ru.netology.web.data;
 
 import lombok.Value;
+import java.util.Random;
+
 
 public class DataHelper {
     public DataHelper() {}

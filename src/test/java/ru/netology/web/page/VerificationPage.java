@@ -16,10 +16,10 @@ public class VerificationPage {
         codeField.shouldBe(Condition.visible);
     }
 
-    public DashboardPageOfCards validVerify(DataHelper.VerificationCode verificationCode) {
+    public DashboardPage validVerify(DataHelper.VerificationCode verificationCode) {
         codeField.setValue(verificationCode.getCode());
         verifyButton.click();
-        return new DashboardPageOfCards();
+        return new DashboardPage();
     }
 
 
